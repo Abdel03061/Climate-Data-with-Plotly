@@ -1,14 +1,12 @@
-// graficascater.tsx
-import React from 'react'
-import Chart from './chart'
+// Elimina la importación de React si no la usas
+// import React from 'react'  ← Borra esta línea
 
 const graficascater = () => {
     return (
         <div>
-            <h2>Gráfica de Datos Climáticos con plotly (scatter polar)</h2>
-            <Chart path="/graficascater.html" title="Gráfica de Datos Climáticos con plotly" />
+            <h2>Gráfica de Datos Climáticos con plotly(scater polar)</h2>
         </div>
     )
 }
 
-export default graficascater
+export default graficascater;
